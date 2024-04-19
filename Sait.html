@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мемасы</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+    <div id="upper">
+        <table>
+            <tr>
+                <td class="textik">Мемы:</td>
+                <td class="button"><a href="2023.html">2023 год</a></td>
+                <td class="button"><a href="2019.html">2019 год</a></td>
+                <td class="button"><a href="2015.html">2015 год</a></td>
+                <td class="button"><a href="2013.html">2013 год</a></td>
+                <td class="button"><a href="2011.html">2011 год</a></td>
+                <td class="button"><a href="Sait.html">На главную</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="main">
+    </div>
+
+    <div id="text1">
+        <h1  class="fupper">Лучшие мемы за все время</h1>
+    </div>
+
+    <div class="images">
+        <a href="img1.html" id="link"><img src="1.jpg" alt="Image 1"></a>
+        <a href="img2.html" id="link2"><img src="2.jpg" alt="Image 2"></a>
+        <a href="img3.html" id="link3"><img src="3.jpg" alt="Image 3"></a>
+        <a href="img4.html" id="link4"><img src="4.jpg" alt="Image 4"></a>
+        <a href="img5.html" id="link5"><img src="5.jpg" alt="Image 5"></a>
+        <a href="img6.html" id="link6"><img src="6.jpg" alt="Image 6"></a>
+        <a href="img7.html" id="link7"><img src="7.jpg" alt="Image 7"></a>
+        <a href="img8.html" id="link8"><img src="8.png" alt="Image 8"></a>
+        <a href="img9.html" id="link9"><img src="9.jpg" alt="Image 9"></a>
+        <a href="img10.html" id="link10"><img src="10.jpg" alt="Image 10"></a>
+        <a href="img11.html" id="link11"><img src="11.jpg" alt="Image 11"></a>
+        <a href="img12.html" id="link12"><img src="12.jpg" alt="Image 12"></a>
+    </div>
+
+    <div id="fullscreen-gif">
+        <img id="gif" src="" alt="Fullscreen GIF">
+    </div>
+
+    <script>
+        const link = document.getElementById('link');
+        const link2 = document.getElementById('link2');
+        const link3 = document.getElementById('link3');
+        const link4 = document.getElementById('link4');
+        const link5 = document.getElementById('link5');
+        const link6 = document.getElementById('link6');
+        const link7 = document.getElementById('link7');
+        const link8 = document.getElementById('link8');
+        const link9 = document.getElementById('link9');
+        const link10 = document.getElementById('link10');
+        const link11 = document.getElementById('link11');
+        const link12 = document.getElementById('link12');
+
+        const fullscreenGif = document.getElementById('fullscreen-gif');
+
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition.gif'; // Путь к первой гифке
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link.href;
+            }, 1000); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link2.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition2.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link2.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link3.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition3.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link3.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link4.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition4.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link4.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link5.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition5.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link5.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link6.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition6.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link6.href;
+            }, 1500); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link7.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition7.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link7.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link8.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition8.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link8.href;
+            }, 700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link9.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition9.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link9.href;
+            }, 1500); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link10.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition10.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link10.href;
+            }, 1500); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link11.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition11.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link11.href;
+            }, 1000); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+
+        link12.addEventListener('click', function(e) {
+            e.preventDefault();
+            gif.src = 'transition12.gif';
+            fullscreenGif.style.display = 'block';
+            
+            setTimeout(function() {
+                window.location.href = link12.href;
+            }, 1700); // Здесь 5000 - время в миллисекундах, через которое произойдет переход на второй сайт
+        });
+    </script>
+
+
+
+    <footer>
+        Контакты: telegram @poll
+    </footer>
+</body>
+
+</html>
